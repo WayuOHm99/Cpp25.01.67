@@ -25,7 +25,7 @@ int main() {
 	for(i=0;i<n;i++){
 		for(j=0;j<m;j++){
 			avg = (float)(martrix1[i][j]+martrix2[i][j])/2;
-			cout << avg << "";
+			cout << avg << " ";
 		}
 		cout << endl;
 	}
