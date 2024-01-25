@@ -27,7 +27,7 @@ int main () {
 		}
 	}
 	for (i=0;i<5;i++){
-		cout << sum[i] << "";
+		cout << sum[i] << " ";
 	}
 	return 0;
 }
