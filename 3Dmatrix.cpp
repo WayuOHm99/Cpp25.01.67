@@ -7,7 +7,6 @@ int main() {
     string name[5][5][5];
 
     cin >> n >> m >> p;
-
     for (i = 0; i < n; i++) {
         for (j = 0; j < m; j++) {
             for (k = 0; k < p; k++) {
@@ -16,7 +15,7 @@ int main() {
         }
     }
 
-    cout << " " << endl;
+    cout << "Elements in The Martrix: " << endl;
     for (i = 0; i < n; i++) {
         for (j = 0; j < m; j++) {
             for (k = 0; k < p; k++) {
@@ -25,7 +24,7 @@ int main() {
         }
     }
 
-    cout << " " << endl;
+    cout << "\nElements in The Martrix: " << endl;
     for (i = 0; i < n; i++) {
         cout << "name[" << i << "][][]: ";
         for (j = 0; j < m; j++) {
